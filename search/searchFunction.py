@@ -5,7 +5,6 @@ import pandas as pd
 def get_connection(db_name="example.db"):
     return sqlite3.connect(db_name)
 
-
 # Функция для поиска по базе данных с несколькими критериями
 def search_data(df, name=None, department_1=None, role=None, city=None, department_2=None, department_3=None, department_4=None, \
                 functional_block=None, surName=None, number=None, address=None, post=None):
